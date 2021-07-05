@@ -12,7 +12,7 @@ function Footer() {
                     <a href="https://www.linkedin.com/in/michaelbirdsongjr/" target="_blank" rel="noopener noreferrer"><span uk-icon="icon: linkedin" className="uk-icon socialLink"></span></a>
                 </div>
                 <Link to="/credits" className="credits uk-text-small uk-margin-top">Credits</Link>
-                <p className="copyright uk-text-small">© 2020 Alvin Galit</p>
+                <p className="copyright uk-text-small">© 2021 Michael Birdsong</p>
             </div>
         </footer>
     );

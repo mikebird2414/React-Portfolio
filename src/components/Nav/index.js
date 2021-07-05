@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import "./nav.css";
-import myLogo from "../../assets/images";
+
 // import NavToggle from "../NavToggle";
 
 function Nav() {
@@ -26,8 +26,7 @@ function Nav() {
             <nav className="uk-navbar-container uk-navbar-transparent" uk-navbar="true">
 
                 <div className="uk-navbar-left">
-                    <Link to="/"><img src={myLogo} alt="My logo" className="logoMark" /></Link>
-                    <Link className="uk-navbar-item uk-logo myLogo" to="/">Alvin Galit</Link>
+                    <Link className="uk-navbar-item uk-logo myLogo" to="/">Michael Birdsong</Link>
                 </div>
 
                 <div className="uk-navbar-right">
