@@ -15,6 +15,6 @@
 [React Portfolio](https://github.com/mikebird2414/React-Portfolio)
 
 ## Screenshots
-![Portfolio Page Screenshot](./src/assets/images/)
-![About Page Screenshot](./src/assets/images/)
-![Contact Page Screenshot](./src/assets/images/)
+![Portfolio Page Screenshot](./src/assets/images/homepage.png)
+![About Page Screenshot](./src/assets/images/about)
+![Contact Page Screenshot](./src/assets/images/contact.png)
