@@ -1,0 +1,64 @@
+.container {
+    min-height: calc(100vh - 80px);
+}
+
+.portfolio-wrapper,
+.contact-wrapper,
+.heading-wrapper,
+.not-found-wrapper {
+    padding: 0 100px;
+}
+
+.heading-wrapper {
+    overflow: hidden;
+}
+
+.portfolio-cards {
+    display: inline-grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.25rem;
+    grid-auto-rows: 1fr;
+}
+
+.not-found-wrapper {
+    text-align: center;
+}
+
+.not-found-wrapper h1 {
+    font-family: var(--title-font);
+    color: var(--main-color);
+    font-size: 16rem;
+    margin: 0;
+}
+
+.not-found-wrapper p {
+    font-size: 2rem;
+    margin: 0 0 40px 0;
+}
+
+
+/* For medium-sized screens */
+@media only screen and (max-width: 992px) {
+    .portfolio-wrapper,
+    .contact-wrapper,
+    .skills-wrapper,
+    .heading-wrapper,
+    .not-found-wrapper {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .portfolio-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* For smaller screens */
+@media only screen and (max-width: 768px) {
+    .portfolio-cards {
+        grid-template-columns: 1fr;
+    }
+    .not-found-wrapper h1 {
+        font-size: 10rem;
+    }
+}

@@ -1,0 +1,17 @@
+.btn-primary {
+    height: 32px;
+    padding: 10px 20px;
+    background-color: var(--main-color);
+    font-size: 14px;
+    font-weight: 400;
+    border: none;
+    letter-spacing: 1.2px;
+    color: var(--black-color);
+    text-transform: uppercase;
+}
+
+.btn-primary:hover {
+    background-color: var(--main-color-shade);
+    color: var(--black-color);
+    text-decoration: none;
+}

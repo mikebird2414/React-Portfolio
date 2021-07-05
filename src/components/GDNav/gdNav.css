@@ -1,0 +1,49 @@
+.gd-nav {
+    top: 40vh;
+    width: 100%;
+    padding: 0.875rem;
+}
+
+.gd-nav span {
+    color: #26291A;
+    background-color: var(--main-color);
+    padding: 1rem;
+    border-radius: 2.5rem;
+    cursor: pointer;
+    opacity: 1;
+    visibility: visible;
+}
+
+.gd-nav span:hover {
+    background-color: var(--main-color-shade);
+}
+
+.gd-nav span:focus {
+    background-color: var(--main-color);
+}
+
+.gd-nav .hidden {
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: opacity 600ms ease-in-out, visibility 600ms ease-in-out;
+    transition: opacity 600ms ease-in-out, visibility 600ms ease-in-out;
+}
+
+.gd-nav-left {
+    align-self: flex-start;
+}
+
+.gd-nav-right {
+    align-self: flex-end;
+}
+
+
+
+
+/* For mobile */
+@media screen and (max-width: 768px) {
+    .gd-nav {
+        top: auto;
+        bottom: 50px;
+    }
+}

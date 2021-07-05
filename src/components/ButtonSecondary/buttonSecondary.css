@@ -1,0 +1,18 @@
+.btn-secondary {
+    height: 32px;
+    padding: 10px 20px;
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: 400;
+    border: 1px solid var(--main-color);
+    letter-spacing: 1.2px;
+    color: var(--black-color);
+    margin-right: 6px;
+    text-transform: uppercase;
+}
+
+.btn-secondary:hover {
+    background-color: var(--main-color-shade);
+    color: #26291A;
+    text-decoration: none;
+}

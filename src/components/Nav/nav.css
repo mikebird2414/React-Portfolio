@@ -1,0 +1,58 @@
+.myLogo {
+    font-family: var(--title-font);
+    color: #f2f2f2;
+}
+
+.myLogo:hover {
+    color: var(--main-color);
+}
+
+.logoMark {
+    width: 40px;
+}
+
+.navLink {
+    display: flex;
+}
+
+.navLink li a {
+    color: #f2f2f2;
+}
+
+.navLink li a:hover {
+    color: var(--main-color);
+}
+
+.navLink li a:focus {
+    color: var(--main-color);
+}
+
+.navMenuSmall {
+    display: none;
+}
+
+#navMenuIcon {
+    color: #f2f2f2;
+    cursor: pointer;
+}
+
+#navMenuIcon:hover {
+    color: var(--main-color);
+}
+
+
+
+/* For smaller screens */
+@media only screen and (max-width: 768px) {
+    .navMenuSmall {
+        display: block;
+    }
+
+    .navLink {
+        display: none;
+    }
+
+    .myLogo {
+        visibility: hidden;
+    }
+}

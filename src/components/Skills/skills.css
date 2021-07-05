@@ -1,0 +1,13 @@
+.skills-wrapper {
+    padding: 0 100px;
+}
+
+
+
+
+/* For medium-sized screens */
+@media only screen and (max-width: 992px) {
+    .skills-wrapper {
+        padding: 20px;
+    }
+}

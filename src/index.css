@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-color: #B7D437;
+  --main-color-shade: rgb(157, 187, 21);
+  --black-color: #26291A;
+  --main-font: 'Roboto', sans-serif;
+  --title-font: 'Roboto Slab', serif;
+}
+
+body {
+  font-family: var(--main-font);
+  font-weight: 300;
+  background-color: var(--black-color);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

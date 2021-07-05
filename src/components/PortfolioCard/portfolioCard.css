@@ -1,0 +1,18 @@
+.portfolioCard {
+    min-width: 225px;
+}
+
+.uk-card-media-top {
+    border-bottom: 1px solid var(--main-color);
+}
+
+.portfolio-card-img-container {
+    height: 200px;
+    overflow: hidden;
+}
+
+.portfolio-card-img-container img {
+    object-fit: cover;
+    min-width: 100%;
+    min-height: 100%;
+}

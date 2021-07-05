@@ -1,0 +1,9 @@
+.top-scroll-bar {
+    min-height: 4px;
+    width: 100%;
+    background: var(--main-color);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    transition: all 0.2s ease-in-out;
+}
