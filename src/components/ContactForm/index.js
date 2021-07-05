@@ -53,13 +53,13 @@ function ContactForm() {
             <div className="uk-margin">
                 <label className="uk-form-label uk-text-muted" htmlFor="name">Name</label>
                 <div className="uk-form-controls">
-                    <input className="uk-input" id="name" type="text" placeholder="John Doe" ref={nameRef} />
+                    <input className="uk-input" id="name" type="text" placeholder="Mike Bird" ref={nameRef} />
                 </div>
             </div>
             <div className="uk-margin">
                 <label className="uk-form-label uk-text-muted" htmlFor="email">Email</label>
                 <div className="uk-form-controls">
-                    <input className="uk-input" id="email" type="text" placeholder="johndoe@email.com" ref={emailRef} />
+                    <input className="uk-input" id="email" type="text" placeholder="mikebird2414@email.com" ref={emailRef} />
                 </div>
             </div>
             <div className="uk-margin">
